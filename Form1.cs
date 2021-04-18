@@ -10,7 +10,7 @@
             InitializeComponent();
         }
         Graficos g = new Graficos();
-        int x1, y1, x2, y2, lenght = 80;
+        int x1, y1, x2, y2;
         Color color = Color.Black;
 
         private void btnNuevasC_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@
             y1 = Convert.ToInt16(txtY1.Text);
             x2 = Convert.ToInt16(txtX2.Text);
             y2 = Convert.ToInt16(txtY2.Text);
-            g.lineaDDA(x1, y1, x2, y2, pictureBox1, color);
+            g.Triangulo(x1, y1, x2, y2, pictureBox1, color);
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {

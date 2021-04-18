@@ -48,6 +48,8 @@
             this.btnNuevasC = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.btnCuadrado = new System.Windows.Forms.Button();
+            this.btnTrapecio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,7 +136,6 @@
             this.txtY1.Name = "txtY1";
             this.txtY1.Size = new System.Drawing.Size(41, 20);
             this.txtY1.TabIndex = 14;
-//            this.txtY1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtY2
             // 
@@ -230,11 +231,31 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // btnCuadrado
+            // 
+            this.btnCuadrado.Location = new System.Drawing.Point(10, 469);
+            this.btnCuadrado.Name = "btnCuadrado";
+            this.btnCuadrado.Size = new System.Drawing.Size(182, 20);
+            this.btnCuadrado.TabIndex = 25;
+            this.btnCuadrado.Text = "Trazar cuadrado";
+            this.btnCuadrado.UseVisualStyleBackColor = true;
+            // 
+            // btnTrapecio
+            // 
+            this.btnTrapecio.Location = new System.Drawing.Point(10, 507);
+            this.btnTrapecio.Name = "btnTrapecio";
+            this.btnTrapecio.Size = new System.Drawing.Size(182, 20);
+            this.btnTrapecio.TabIndex = 26;
+            this.btnTrapecio.Text = "Trazar trapecio";
+            this.btnTrapecio.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1017, 627);
+            this.Controls.Add(this.btnTrapecio);
+            this.Controls.Add(this.btnCuadrado);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNuevasC);
             this.Controls.Add(this.label6);
@@ -284,6 +305,8 @@
         private System.Windows.Forms.Button btnNuevasC;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Button btnCuadrado;
+        private System.Windows.Forms.Button btnTrapecio;
     }
 }
 
