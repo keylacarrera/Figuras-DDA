@@ -55,7 +55,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox1.Location = new System.Drawing.Point(205, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 600);
@@ -239,6 +239,7 @@
             this.btnCuadrado.TabIndex = 25;
             this.btnCuadrado.Text = "Trazar cuadrado";
             this.btnCuadrado.UseVisualStyleBackColor = true;
+            this.btnCuadrado.Click += new System.EventHandler(this.btnCuadrado_Click);
             // 
             // btnTrapecio
             // 
@@ -248,6 +249,7 @@
             this.btnTrapecio.TabIndex = 26;
             this.btnTrapecio.Text = "Trazar trapecio";
             this.btnTrapecio.UseVisualStyleBackColor = true;
+            this.btnTrapecio.Click += new System.EventHandler(this.btnTrapecio_Click);
             // 
             // Form1
             // 
